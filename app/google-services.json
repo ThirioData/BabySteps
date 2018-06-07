@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "953681876540",
+    "firebase_url": "https://babysteps-8913c.firebaseio.com",
+    "project_id": "babysteps-8913c",
+    "storage_bucket": "babysteps-8913c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953681876540:android:b809c1dc7bad1be0",
+        "android_client_info": {
+          "package_name": "com.thirio.babysteps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953681876540-4iekatmvvk0e0f1hmis2q9b8mb08cn9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thirio.babysteps",
+            "certificate_hash": "03641ba3d4239c3b3ef95a59572c948462bf08df"
+          }
+        },
+        {
+          "client_id": "953681876540-o70cc6hegshvtmgfpg94ajqamvgini19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thirio.babysteps",
+            "certificate_hash": "7c484d6bcb619706098e8329ba2d1870cae2a788"
+          }
+        },
+        {
+          "client_id": "953681876540-2dncq7ivumgpd5vnv5gjam7163aa4nf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKL9r40r4nYTnb1zQh41txdADf0k0odtM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953681876540-2dncq7ivumgpd5vnv5gjam7163aa4nf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

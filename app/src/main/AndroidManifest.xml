@@ -10,21 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
-        <service
-            android:name=".MyJobService"
-            android:exported="false">
+        <!-- Declare  Alarm Broadcast receiver here -->
+        <receiver android:name=".AlarmReceiver">
             <intent-filter>
-                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
             </intent-filter>
-        </service>
+        </receiver>
+        <!-- Declare  Alarm Notification Service here -->
 
+
+        <!-- Declare  Alarm Sound Service here -->
+        <service android:name=".ServiceSync" />
+
+        <activity android:name=".Splash"
+            android:theme="@style/ThemeOverlay.MyNoTitleActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".PhoneAuthActivity"
+
+            android:theme="@style/ThemeOverlay.MyNoTitleActivity"></activity>
     </application>
 
 </manifest>
